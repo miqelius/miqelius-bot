@@ -12,3 +12,4 @@ python-dotenv==1.0.0
 sqlalchemy==2.0.30
 asyncpg==0.29.0
 greenlet==3.0.3
+numpy<2.0
