@@ -3,7 +3,7 @@ import uuid
 import pdfplumber
 from typing import List
 from app.core.config import settings
-from app.core.database import AsyncSessionLocal
+from app.storage.database import AsyncSessionLocal
 from app.core.exceptions import DocumentProcessingError
 from app.storage.document_repository import DocumentRepository
 from app.storage.vector_store import vector_store
