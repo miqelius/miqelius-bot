@@ -13,3 +13,5 @@ sqlalchemy==2.0.30
 asyncpg==0.29.0
 greenlet==3.0.3
 numpy<2.0
+
+onnxruntime==1.16.3
